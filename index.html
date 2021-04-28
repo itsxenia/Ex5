@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+
+<title>Exercise 5</title>
+	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+<style>
+	
+
+	@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300&display=swap');
+	
+	/*
+	font-family: 'Anton', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	*/
+	
+	body {
+		background-color:#9D79BC;
+		color: white;
+	}
+	
+	*{
+		box-sizing: border-box;
+		margin: 0;
+		font-family: 'Montserrat', sans-serif;
+	}
+	
+		header{
+		position: relative;
+		background: #7E1F86;
+	}
+	
+	#logo{
+		padding: 5px 10px;
+	}
+	
+	#logo a{
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: normal;
+		font-family: 'Anton', sans-serif;
+		font-size: 46px;
+		color: white;
+		
+	}
+	
+	#social{
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		list-style: none;
+		display: inline-block;
+		vertical-align: top;
+		padding: 9px;
+		display: block;
+		text-align: center;
+	}
+	
+	h1{
+		background-color: #7E1F86;
+		padding: inherit;
+	}
+	
+	img.align-center {
+		display: block;
+		margin: 0px auto;}
+	img.medium {
+		width:250px;}
+	
+	input {
+				padding: 6px 12px 6px 12px;
+				border: 1px solid #8CA0D7;
+				color: #91C4F2;}
+			input.submit:hover {
+				background-color: #7E1F86;}
+			input.submit:active {
+				background-color: white;}
+			input.text {
+				color: #91C4F2;}
+			input.text:focus {
+				color:#7E1F86;}
+	
+	.container{
+		max-width: 600px;
+		margin: 0 auto;
+		padding: 20px;
+		display: flex;
+
+	}
+	
+	.form{
+		max-width: 300px;
+		margin: 0 auto;
+		padding: 20px;
+	}
+	
+	p {
+		text-align: justify;
+	}
+	
+	@keyframes fader{
+		0%{
+			opacity: 0;
+		}
+		100{
+			opacity: 1;
+		}
+	}
+	
+	#image{
+		max-width: 100%;
+		width:auto;
+		animation: 3s fader linear 1;
+	}
+	
+	@media screen and (max-width:600px){
+		.container, .form, #image{
+			width:100%;
+		}
+	}
+	
+	
+</style>
+
+</head>
+
+<body>
+	
+	<header>
+		<div id="logo">
+		<h1><a href="index.html">SAM</a>
+			</h1>
+		</div>
+		
+		<div id="social">
+		<i class="fa fa-facebook-square" style="font-size:46px;margin: 5px"></i>
+		<i class="fa fa-instagram" style="font-size:46px;margin: 5px"></i>
+		<i class="fa fa-pinterest-square" style="font-size:46px;margin: 5px"></i>
+		</div>
+		
+	</header>
+		
+		<div id="image">
+		<img src="assets/PlaneWindow.png" class="align-center medium">
+		</div>
+	
+	<div class="container">
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu arcu sit amet lacus volutpat laoreet quis at neque. Quisque finibus suscipit dui, id tristique elit condimentum sed. Vestibulum id lectus quis diam fermentum gravida. Pellentesque ullamcorper euismod nisl a sodales. Morbi non sagittis tortor. Etiam in euismod quam, in maximus mauris. Nam luctus nisl eget ornare mattis. Sed id dui ac dui pretium mattis. Suspendisse hendrerit commodo ex et lobortis.</p>
+	</div>
+		
+		
+	<div class="form">
+	<form>
+			<input type="text" class="text" value="Enter email address..." />
+			<input type="submit" class="submit" />
+		</form>
+	</div>
+
+		</body>
+
+</html>
